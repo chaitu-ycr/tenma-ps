@@ -1,6 +1,6 @@
 [project]
 name = "tenma-ps"
-version = "26.0.0"
+version = "26.0.1"
 description = "python package for controlling tenma power supply"
 license = { file = "LICENSE" }
 readme = "README.md"
