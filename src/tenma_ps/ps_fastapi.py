@@ -207,6 +207,11 @@ Example usage with HTTPie or curl:
 Interactive API docs: http://localhost:8000/docs
 """
 
-if __name__ == "__main__":
+
+def main():
     import uvicorn
-    uvicorn.run("tenma_ps.ps_fastapi:app", host=socket.getfqdn(), reload=True)
+    uvicorn.run("tenma_ps.ps_fastapi:app", host=socket.getfqdn(), port=8000, reload=True)
+
+
+if __name__ == "__main__":
+    main()

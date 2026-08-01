@@ -2,4 +2,4 @@
 
 python package for controlling tenma power supply
 
-## [source manual](https://chaitu-ycr.github.io/tenma-ps/source-manual)
+## [source manual](https://auto-py-utils.github.io/tenma-ps/source-manual)

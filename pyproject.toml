@@ -5,7 +5,7 @@ description = "python package for controlling tenma power supply"
 license = { file = "LICENSE" }
 readme = "README.md"
 requires-python = ">=3.10"
-authors = [{ name = "chaitu-ycr", email = "chaitu.ycr@gmail.com" }]
+authors = [{ name = "auto-py-utils", email = "chaitu.ycr@gmail.com" }]
 keywords = ["python", "tenma", "power", "supply", "application"]
 classifiers = [
     "Programming Language :: Python :: 3.10",
@@ -43,9 +43,13 @@ dev = [
 ]
 
 [project.urls]
-homepage = "https://github.com/chaitu-ycr/tenma-ps"
-repository = "https://github.com/chaitu-ycr/tenma-ps"
-documentation = "https://chaitu-ycr.github.io/tenma-ps"
+homepage = "https://github.com/auto-py-utils/tenma-ps"
+repository = "https://github.com/auto-py-utils/tenma-ps"
+documentation = "https://auto-py-utils.github.io/tenma-ps"
+
+[project.scripts]
+tenma-ps-gui = "tenma_ps.ps_gui:main"
+tenma-ps-api = "tenma_ps.ps_fastapi:main"
 
 [tool.uv]
 package = true

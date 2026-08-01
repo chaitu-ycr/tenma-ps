@@ -398,6 +398,11 @@ class PsGui(ctk.CTk):
         sys.exit(0)
 
 
-if __name__ == "__main__":
+def main():
+    """Entry point for the GUI application."""
     app = PsGui()
     app.mainloop()
+
+
+if __name__ == "__main__":
+    main()

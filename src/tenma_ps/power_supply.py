@@ -189,7 +189,3 @@ class TenmaPs:
             traceback (Optional[object]): Traceback object, if any.
         """
         self.close()
-
-
-if __name__ == "__main__":
-    pass
